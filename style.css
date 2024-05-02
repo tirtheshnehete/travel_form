@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    text-align: center;
+    color: white;
+    width: 80%;
+    height: 80%;
+    background: linear-gradient(180deg, rgb(31, 103, 226), rgb(25, 171, 239));
+    padding: 20px;
+}
+
+.inp {
+    width: 400px;
+    padding: 12px;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    display: block;
+}
+
+.btn {
+    padding: 10px 40px;
+    margin: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(59, 55, 55);
+    /* background: linear-gradient(120deg, rgb(138, 7, 232), rgb(216, 29, 144)); */
+    color: white;
+    font-weight: bold;
+}
